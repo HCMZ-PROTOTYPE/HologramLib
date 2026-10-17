@@ -1,0 +1,15 @@
+name: HologramLib
+version: 1.8.5.1
+main: com.maximde.hologramlib.Main
+author: MaximDe
+depend:
+  - packetevents
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:2.0.21
+  - org.jetbrains.kotlin:kotlin-reflect:2.0.21
+api-version: "26.2"
+softdepend:
+  - ItemsAdder
+  - PlaceholderAPI
+  - HeadDatabase
+folia-supported: true
